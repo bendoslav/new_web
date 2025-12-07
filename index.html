@@ -5,8 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Velky cerny muz</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script
+      src="https://kit.fontawesome.com/b6e35c806a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1 class="text-2xl">Máte rádi velkou cernou okurku?</h1>
+    <h1 class="text-[5rem] text-center font-black">
+      Máte rádi velkou cernou okurku?
+    </h1>
+    <h2 class="text-center mb-3 text-[2rem] text-gray-300 font-medium">
+      (lakidzii btw miluje cerne okurky)
+    </h2>
+    <div class="text-center">
+      <button
+        class="bg-green-500 hover:bg-green-700 font-black cursor-pointer text-white py-2 px-4 rounded"
+        id="button1"
+      >
+        <i class="fa-solid fa-check"></i> Ano
+      </button>
+      <button
+        class="bg-red-500 hover:bg-red-700 text-white cursor-pointer font-black py-2 px-4 rounded"
+        id="button2"
+      >
+        <i class="fa-solid fa-xmark"></i> Ne
+      </button>
+    </div>
+
+    <img
+      src="cucumber.jpg"
+      alt="velka cerna okurka"
+      srcset=""
+      class="h-[15rem] w-[15rem] text-center block mx-auto mt-5 rounded-lg shadow-lg hidden"
+      id="cucumberImage"
+    />
+
+    <script src="js/app.js"></script>
   </body>
 </html>
