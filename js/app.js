@@ -7,5 +7,5 @@ button1.addEventListener("click", () => {
 });
 
 button2.addEventListener("click", () => {
-  window.close();
+  window.location.href = "jdi_dopice.html";
 });
